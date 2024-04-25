@@ -1,0 +1,19 @@
+{
+  "name": "aaron-geo-poc",
+  "version": "0.0.1",
+  "description": "GEO Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "David Sheffield <jeremiah.sheffield@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.556.0",
+    "@aws-sdk/lib-dynamodb": "^3.556.0"
+  }
+}
