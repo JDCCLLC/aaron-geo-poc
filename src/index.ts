@@ -3,7 +3,6 @@ import { findLocationsWithinRadius } from "./find-locations-within-radius.util";
 import { PocLocation } from "./types";
 import { DynamoDBClient } from "@aws-sdk/client-dynamodb";
 import { DynamoDBDocumentClient, QueryCommandInput, QueryCommand, PutCommand } from "@aws-sdk/lib-dynamodb";
-import ngeohash from 'ngeohash'
 
 export const docClient = DynamoDBDocumentClient.from(new DynamoDBClient({}));
 
