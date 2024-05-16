@@ -7,7 +7,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 process.env.AWS_PROFILE = 'aaron-whellness'
 process.env.AWS_REGION = 'us-west-2'
-const sourceTableName = `Whelleness_dev_ProviderLocations`
+const sourceTableName = `Whelleness_prod_ProviderLocations`
 const sourceTableRegion = 'us-west-2'
 const targetTableName = `whelleness-backend-single-table-v2-dev`
 const targetTableRegion = `us-east-2`
